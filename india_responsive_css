@@ -1,0 +1,30 @@
+*{
+box-sizing : border-box ;
+}
+.menu{
+float:left; width:20%; text-align:center;
+}
+.menu a{
+background-color: rgb(0,252,252);
+padding:8px;
+margin-top : 7px;
+display : block;
+width : 100%;
+color : black;
+}
+.main{
+float :left;
+width : 60%;
+padding : 20px;
+}
+@media only screen and (max-width : 650px){
+.menu,.main{
+width : 100%;
+}
+}
+
+
+
+
+
+
