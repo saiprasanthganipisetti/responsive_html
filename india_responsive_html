@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "viewport" content = "width = device - width,initial-scale = 1.0">
+<link rel = "stylesheet" href = "gsp.css">
+</head>
+<body style = "font-family : serif; color : red">
+<div style = " background-color: lightpink ;padding : 15px ; text-align :center;">
+<h1 style = "font-size : 5vw;">BEST PLACES IN INDIA</h1>
+</div>
+<div style = "overflow : auto">
+<div class = "Menu">
+<a href = "#"> Home </a>
+<a href = "#"> Places </a>
+<a href = "#"> Restaurants </a>
+<a href = "#"> About </a>
+</div>
+<div class = "main">
+<h2>INDIA</h2>
+<p>India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world’s total population, India is the second most populous country, after China.</p>
+<picture>
+
+<source srcset="bharatamata.jpg" media = "(max-width : 600px)">
+<source srcset="bharatamata.jpg" media = "(max-width : 1500px)">
+<image src = "delhi.jpg" alt = "TAJ MAHAL" style = "width : auto;">
+
+</picture>
+<h1> TAJ MAHAL </h1> 
+<p>Taj Mahal, also spelled Tadj Mahall, mausoleum complex in Agra, western Uttar Pradesh state, northern India. The Taj Mahal was built by the Mughal emperor Shah Jahan (reigned 1628–58) to immortalize his wife Mumtaz Mahal (“Chosen One of the Palace”), who died in childbirth in 1631, having been the emperor’s inseparable companion since their marriage in 1612. India’s most famous and widely recognized building, it is situated in the eastern part of the city on the southern (right) bank of the Yamuna (Jumna) River. Agra Fort (Red Fort), also on the right bank of the Yamuna, is about 1 mile (1.6 km) west of the Taj Mahal. </p> 
+<img src = "tajmahal.jpg" width = "100%" height = "500px">
+<h2> DELHI </h2>
+<p>Delhi, the capital of India has a strong historical background. It was ruled by some of the most powerful emperors in Indian history.
+
+The history of the city is as old as the epic Mahabharata. The town was known as Indraprastha, where Pandavas used to live. In due course eight more cities came alive adjacent to Indraprastha: Lal Kot, Siri, Dinpanah, Quila Rai Pithora, Ferozabad, Jahanpanah, Tughlakabad and Shahjahanabad.
+
+Delhi has been a witness to the political turmoil for over five centuries. It was ruled by the Mughals in succession to Khiljis and Tughlaqs.
+</p>
+<image src = "delhi.jpg" width = "100%" height ="500px">
+<h2> AMARAVATI </h2>
+<p> Amaravati, famous for the Amareswara temple, which is dedicated to Lord Shiva dates back to the 2nd century BCE and was once the capital of the Satavahanas and also the Pallava kings. Amaravati was a seat of Buddhism prior to the rise of Satavahanas, and a stupa and monastery were built there during the reign of Emperor Ashoka (269-232 BC) under Mauryan Empire.
+
+In February 2014, the state of Andhra Pradesh was bifurcated, leading to need for a new capital city in successor state of AP. As per the AP Reorganization Act 2014, a new greenfield capital was to be developed for the state of Andhra Pradesh. Hence, it was planned to construct a new greenfield capital “Amaravati” through LPS (Land Pooling Scheme) with active involvement of people.</p>
+<image src = "AMARAVATHI.jpg" width = "100%" height ="500px">
+</div>
+</div>
+<div style = "background-color:lightpink; text-align : center; padding : 10px; margin-top :7px;">
+</div>
+</body>
+</html>
