@@ -1,0 +1,147 @@
+// src/App.js
+
+
+// import Footer component
+import Footer from "./components/Footer";
+// import Header component
+import Header from "./components/Header";
+import Home from "./components/Home";
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+
+To know more about How to create and use Header and Footer in ReactJS, Read This Article.
+
+Create Home Component
+Create a folder named, Home, inside src/components folder.
+
+
+Create a functional component with the same name there (Home.js) and create Home.css as well.
+
+
+// src/components/Home.js
+
+import React from 'react';
+const Home = (props) => {
+
+    return (
+        <div >
+           
+        </div>
+    );
+};
+
+export default Home;
+Import the CSS file in the home component.
+
+// import CSS
+import './Home.css';
+Create a <div> with the className of banner-container inside Home.js .
+// src/components/Home.js
+
+// import CSS
+import './Home.css';
+import React from 'react';
+const Home = (props) => {
+
+    return (
+        <div>
+            <div className="banner-container">
+
+            </div>
+        </div>
+    );
+};
+
+export default Home;
+Add some contents using Tailwind CSS class names inside this <div>.
+// src/components/Home/Home.js
+
+// import CSS
+import './Home.css';
+import React from 'react';
+const Home = (props) => {
+
+    return (
+        <div>
+            <div className="banner-container">
+                <div className="text-center">
+                    <h1 className=" text-6xl">Welcome to Codebun</h1>
+                    <h4 className="text-4xl">Your very own personal tutorial corner</h4>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Home;
+Import this Home component in App.js
+// src/App.js
+
+
+// import Footer component
+import Footer from "./components/Footer";
+// import Header component
+import Header from "./components/Header";
+// import home
+import Home from "./components/Home/Home";
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+
+Add a background image to ReactJS page
+Go to Home.css file to add a background image and some styles by selecting the class name, banner-container.
+/* src/components/Home/Home.css */
+
+.banner-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: overlay;
+    align-items: center;
+}
+// src/components/Home/Home.js
+
+// import CSS
+import './Home.css';
+import React from 'react';
+const Home = (props) => {
+
+    return (
+        <div>
+            <div className="banner-container">
+                <div className="text-center">
+                    <h1 className=" text-6xl text-orange-600 font-bold">Welcome to Codebun</h1>
+                    <h4 className="text-4xl mt-8 text-white">Your very own personal tutorial corner</h4>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Home;
